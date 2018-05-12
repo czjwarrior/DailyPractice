@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "DrawView.h"
 
-@interface ViewController ()<UIImagePickerControllerDelegate>
+@interface ViewController ()<UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet DrawView *drawView;
 
