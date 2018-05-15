@@ -37,7 +37,7 @@
     
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
     [self addGestureRecognizer:pan];
-
+    
     // 初始化线的颜色和线宽
     [self setLineColor:[UIColor blackColor]];
     [self setLineWidth:1.f];
@@ -93,7 +93,7 @@
         
         ZJBezierPath *path = [ZJBezierPath bezierPath];
         path.lineWidth = self.lineWidth;
-        path.lineJoinStyle = kCGLineJoinMiter;
+        path.lineJoinStyle = kCGLineJoinRound;
         path.lineCapStyle = kCGLineCapRound;
         path.lineColor = self.lineColor;    // //颜色必须得要在drawRect方法当中进行绘制    继承系统类,添加属性我们自己的东西.
         self.path = path;
