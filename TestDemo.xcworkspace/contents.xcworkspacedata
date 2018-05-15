@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Lottie-Demo/Lottie-Demo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SimpleDemo/SimpleDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Animation/Animation.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:NSInvocation/NSInvocation.xcodeproj">
    </FileRef>
    <FileRef

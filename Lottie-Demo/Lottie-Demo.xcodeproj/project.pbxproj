@@ -1,0 +1,1092 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B541F2372092D9370059B024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2362092D9370059B024 /* AppDelegate.m */; };
+		B541F23A2092D9370059B024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2392092D9370059B024 /* ViewController.m */; };
+		B541F23D2092D9370059B024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B541F23B2092D9370059B024 /* Main.storyboard */; };
+		B541F23F2092D9380059B024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B541F23E2092D9380059B024 /* Assets.xcassets */; };
+		B541F2422092D9380059B024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B541F2402092D9380059B024 /* LaunchScreen.storyboard */; };
+		B541F2452092D9380059B024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2442092D9380059B024 /* main.m */; };
+		B541F24F2092D9380059B024 /* Lottie_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F24E2092D9380059B024 /* Lottie_DemoTests.m */; };
+		B541F25A2092D9380059B024 /* Lottie_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2592092D9380059B024 /* Lottie_DemoUITests.m */; };
+		B541F2682092D94F0059B024 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = B541F2672092D94F0059B024 /* LottieLogo1.json */; };
+		B541F2FB2092D98D0059B024 /* LOTRenderNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F26C2092D98D0059B024 /* LOTRenderNode.m */; };
+		B541F2FC2092D98D0059B024 /* LOTTrimPathNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2712092D98D0059B024 /* LOTTrimPathNode.m */; };
+		B541F2FD2092D98D0059B024 /* LOTColorInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2732092D98D0059B024 /* LOTColorInterpolator.m */; };
+		B541F2FE2092D98D0059B024 /* LOTPathInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2742092D98D0059B024 /* LOTPathInterpolator.m */; };
+		B541F2FF2092D98D0059B024 /* LOTSizeInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F27C2092D98D0059B024 /* LOTSizeInterpolator.m */; };
+		B541F3002092D98D0059B024 /* LOTPointInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F27E2092D98D0059B024 /* LOTPointInterpolator.m */; };
+		B541F3012092D98D0059B024 /* LOTValueInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F27F2092D98D0059B024 /* LOTValueInterpolator.m */; };
+		B541F3022092D98D0059B024 /* LOTTransformInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2802092D98D0059B024 /* LOTTransformInterpolator.m */; };
+		B541F3032092D98D0059B024 /* LOTArrayInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2812092D98D0059B024 /* LOTArrayInterpolator.m */; };
+		B541F3042092D98D0059B024 /* LOTNumberInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2822092D98D0059B024 /* LOTNumberInterpolator.m */; };
+		B541F3052092D98D0059B024 /* LOTAnimatorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2832092D98D0059B024 /* LOTAnimatorNode.m */; };
+		B541F3062092D98D0059B024 /* LOTPathAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2852092D98D0059B024 /* LOTPathAnimator.m */; };
+		B541F3072092D98D0059B024 /* LOTPolystarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2862092D98D0059B024 /* LOTPolystarAnimator.m */; };
+		B541F3082092D98D0059B024 /* LOTPolygonAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2872092D98D0059B024 /* LOTPolygonAnimator.m */; };
+		B541F3092092D98D0059B024 /* LOTCircleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2892092D98D0059B024 /* LOTCircleAnimator.m */; };
+		B541F30A2092D98D0059B024 /* LOTRoundedRectAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F28D2092D98D0059B024 /* LOTRoundedRectAnimator.m */; };
+		B541F30B2092D98D0059B024 /* LOTRenderGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2902092D98D0059B024 /* LOTRenderGroup.m */; };
+		B541F30C2092D98D0059B024 /* LOTGradientFillRender.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2912092D98D0059B024 /* LOTGradientFillRender.m */; };
+		B541F30D2092D98D0059B024 /* LOTStrokeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2962092D98D0059B024 /* LOTStrokeRenderer.m */; };
+		B541F30E2092D98D0059B024 /* LOTFillRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2972092D98D0059B024 /* LOTFillRenderer.m */; };
+		B541F30F2092D98D0059B024 /* LOTRepeaterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2992092D98D0059B024 /* LOTRepeaterRenderer.m */; };
+		B541F3102092D98D0059B024 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B541F29A2092D98D0059B024 /* .gitkeep */; };
+		B541F3112092D98D0059B024 /* LOTMask.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F29C2092D98D0059B024 /* LOTMask.m */; };
+		B541F3122092D98D0059B024 /* LOTLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F29D2092D98D0059B024 /* LOTLayer.m */; };
+		B541F3132092D98D0059B024 /* LOTAssetGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F29E2092D98D0059B024 /* LOTAssetGroup.m */; };
+		B541F3142092D98D0059B024 /* LOTLayerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2A32092D98D0059B024 /* LOTLayerGroup.m */; };
+		B541F3152092D98D0059B024 /* LOTShapeStar.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2A42092D98D0059B024 /* LOTShapeStar.m */; };
+		B541F3162092D98D0059B024 /* LOTShapeTrimPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2A52092D98D0059B024 /* LOTShapeTrimPath.m */; };
+		B541F3172092D98D0059B024 /* LOTShapeGradientFill.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2A92092D98D0059B024 /* LOTShapeGradientFill.m */; };
+		B541F3182092D98D0059B024 /* LOTAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2AC2092D98D0059B024 /* LOTAsset.m */; };
+		B541F3192092D98D0059B024 /* LOTShapeRepeater.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2AE2092D98D0059B024 /* LOTShapeRepeater.m */; };
+		B541F31A2092D98D0059B024 /* LOTShapeRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2B02092D98D0059B024 /* LOTShapeRectangle.m */; };
+		B541F31B2092D98D0059B024 /* LOTShapeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2B52092D98D0059B024 /* LOTShapeCircle.m */; };
+		B541F31C2092D98D0059B024 /* LOTShapePath.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2B62092D98D0059B024 /* LOTShapePath.m */; };
+		B541F31D2092D98D0059B024 /* LOTShapeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2B72092D98D0059B024 /* LOTShapeGroup.m */; };
+		B541F31E2092D98D0059B024 /* LOTShapeFill.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2B92092D98D0059B024 /* LOTShapeFill.m */; };
+		B541F31F2092D98D0059B024 /* LOTShapeTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2BA2092D98D0059B024 /* LOTShapeTransform.m */; };
+		B541F3202092D98D0059B024 /* LOTShapeStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2BC2092D98D0059B024 /* LOTShapeStroke.m */; };
+		B541F3212092D98D0059B024 /* CGGeometry+LOTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2C02092D98D0059B024 /* CGGeometry+LOTAdditions.m */; };
+		B541F3222092D98D0059B024 /* LOTBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2C12092D98D0059B024 /* LOTBezierPath.m */; };
+		B541F3232092D98D0059B024 /* LOTRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2C32092D98D0059B024 /* LOTRadialGradientLayer.m */; };
+		B541F3242092D98D0059B024 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2C62092D98D0059B024 /* UIColor+Expanded.m */; };
+		B541F3252092D98D0059B024 /* UIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2C92092D98D0059B024 /* UIBezierPath.m */; };
+		B541F3262092D98D0059B024 /* UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2CC2092D98D0059B024 /* UIColor.m */; };
+		B541F3272092D98D0059B024 /* NSValue+Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2CF2092D98D0059B024 /* NSValue+Compat.m */; };
+		B541F3282092D98D0059B024 /* CALayer+Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2D02092D98D0059B024 /* CALayer+Compat.m */; };
+		B541F3292092D98D0059B024 /* LOTAnimationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2D22092D98D0059B024 /* LOTAnimationCache.m */; };
+		B541F32A2092D98D0059B024 /* LOTComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2D32092D98D0059B024 /* LOTComposition.m */; };
+		B541F32B2092D98D0059B024 /* LOTValueCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2D42092D98D0059B024 /* LOTValueCallback.m */; };
+		B541F32C2092D98D0059B024 /* LOTBlockCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2D52092D98D0059B024 /* LOTBlockCallback.m */; };
+		B541F32D2092D98D0059B024 /* LOTAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2D62092D98D0059B024 /* LOTAnimationView.m */; };
+		B541F32E2092D98D0059B024 /* LOTAnimationTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2D72092D98D0059B024 /* LOTAnimationTransitionController.m */; };
+		B541F32F2092D98D0059B024 /* LOTKeypath.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2D92092D98D0059B024 /* LOTKeypath.m */; };
+		B541F3302092D98D0059B024 /* LOTCacheProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2DA2092D98D0059B024 /* LOTCacheProvider.m */; };
+		B541F3312092D98D0059B024 /* LOTAnimatedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2DB2092D98D0059B024 /* LOTAnimatedControl.m */; };
+		B541F3322092D98D0059B024 /* LOTInterpolatorCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2DC2092D98D0059B024 /* LOTInterpolatorCallback.m */; };
+		B541F3332092D98D0059B024 /* LOTAnimatedSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2DD2092D98D0059B024 /* LOTAnimatedSwitch.m */; };
+		B541F3342092D98D0059B024 /* LOTKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2DF2092D98D0059B024 /* LOTKeyframe.m */; };
+		B541F3352092D98D0059B024 /* LOTBezierData.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2E02092D98D0059B024 /* LOTBezierData.m */; };
+		B541F3362092D98D0059B024 /* LOTLayerContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2E42092D98D0059B024 /* LOTLayerContainer.m */; };
+		B541F3372092D98D0059B024 /* LOTCompositionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2E82092D98D0059B024 /* LOTCompositionContainer.m */; };
+		B541F3382092D98D0059B024 /* LOTMaskContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B541F2E92092D98D0059B024 /* LOTMaskContainer.m */; };
+		B541F3392092D98D0059B024 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B541F2FA2092D98D0059B024 /* .gitkeep */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B541F24B2092D9380059B024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B541F22A2092D9360059B024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B541F2312092D9360059B024;
+			remoteInfo = "Lottie-Demo";
+		};
+		B541F2562092D9380059B024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B541F22A2092D9360059B024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B541F2312092D9360059B024;
+			remoteInfo = "Lottie-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B541F2322092D9360059B024 /* Lottie-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B541F2352092D9360059B024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B541F2362092D9370059B024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B541F2382092D9370059B024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B541F2392092D9370059B024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B541F23C2092D9370059B024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B541F23E2092D9380059B024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B541F2412092D9380059B024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B541F2432092D9380059B024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B541F2442092D9380059B024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B541F24A2092D9380059B024 /* Lottie-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lottie-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B541F24E2092D9380059B024 /* Lottie_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lottie_DemoTests.m; sourceTree = "<group>"; };
+		B541F2502092D9380059B024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B541F2552092D9380059B024 /* Lottie-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lottie-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B541F2592092D9380059B024 /* Lottie_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lottie_DemoUITests.m; sourceTree = "<group>"; };
+		B541F25B2092D9380059B024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B541F2672092D94F0059B024 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = SOURCE_ROOT; };
+		B541F26C2092D98D0059B024 /* LOTRenderNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRenderNode.m; sourceTree = "<group>"; };
+		B541F26D2092D98D0059B024 /* LOTAnimatorNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimatorNode.h; sourceTree = "<group>"; };
+		B541F26E2092D98D0059B024 /* LOTRenderNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRenderNode.h; sourceTree = "<group>"; };
+		B541F2702092D98D0059B024 /* LOTTrimPathNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTTrimPathNode.h; sourceTree = "<group>"; };
+		B541F2712092D98D0059B024 /* LOTTrimPathNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTTrimPathNode.m; sourceTree = "<group>"; };
+		B541F2732092D98D0059B024 /* LOTColorInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTColorInterpolator.m; sourceTree = "<group>"; };
+		B541F2742092D98D0059B024 /* LOTPathInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPathInterpolator.m; sourceTree = "<group>"; };
+		B541F2752092D98D0059B024 /* LOTSizeInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTSizeInterpolator.h; sourceTree = "<group>"; };
+		B541F2762092D98D0059B024 /* LOTValueInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTValueInterpolator.h; sourceTree = "<group>"; };
+		B541F2772092D98D0059B024 /* LOTPointInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPointInterpolator.h; sourceTree = "<group>"; };
+		B541F2782092D98D0059B024 /* LOTNumberInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTNumberInterpolator.h; sourceTree = "<group>"; };
+		B541F2792092D98D0059B024 /* LOTTransformInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTTransformInterpolator.h; sourceTree = "<group>"; };
+		B541F27A2092D98D0059B024 /* LOTArrayInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTArrayInterpolator.h; sourceTree = "<group>"; };
+		B541F27B2092D98D0059B024 /* LOTColorInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTColorInterpolator.h; sourceTree = "<group>"; };
+		B541F27C2092D98D0059B024 /* LOTSizeInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTSizeInterpolator.m; sourceTree = "<group>"; };
+		B541F27D2092D98D0059B024 /* LOTPathInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPathInterpolator.h; sourceTree = "<group>"; };
+		B541F27E2092D98D0059B024 /* LOTPointInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPointInterpolator.m; sourceTree = "<group>"; };
+		B541F27F2092D98D0059B024 /* LOTValueInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTValueInterpolator.m; sourceTree = "<group>"; };
+		B541F2802092D98D0059B024 /* LOTTransformInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTTransformInterpolator.m; sourceTree = "<group>"; };
+		B541F2812092D98D0059B024 /* LOTArrayInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTArrayInterpolator.m; sourceTree = "<group>"; };
+		B541F2822092D98D0059B024 /* LOTNumberInterpolator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTNumberInterpolator.m; sourceTree = "<group>"; };
+		B541F2832092D98D0059B024 /* LOTAnimatorNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimatorNode.m; sourceTree = "<group>"; };
+		B541F2852092D98D0059B024 /* LOTPathAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPathAnimator.m; sourceTree = "<group>"; };
+		B541F2862092D98D0059B024 /* LOTPolystarAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPolystarAnimator.m; sourceTree = "<group>"; };
+		B541F2872092D98D0059B024 /* LOTPolygonAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTPolygonAnimator.m; sourceTree = "<group>"; };
+		B541F2882092D98D0059B024 /* LOTRoundedRectAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRoundedRectAnimator.h; sourceTree = "<group>"; };
+		B541F2892092D98D0059B024 /* LOTCircleAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTCircleAnimator.m; sourceTree = "<group>"; };
+		B541F28A2092D98D0059B024 /* LOTPolystarAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPolystarAnimator.h; sourceTree = "<group>"; };
+		B541F28B2092D98D0059B024 /* LOTPathAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPathAnimator.h; sourceTree = "<group>"; };
+		B541F28C2092D98D0059B024 /* LOTCircleAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTCircleAnimator.h; sourceTree = "<group>"; };
+		B541F28D2092D98D0059B024 /* LOTRoundedRectAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRoundedRectAnimator.m; sourceTree = "<group>"; };
+		B541F28E2092D98D0059B024 /* LOTPolygonAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPolygonAnimator.h; sourceTree = "<group>"; };
+		B541F2902092D98D0059B024 /* LOTRenderGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRenderGroup.m; sourceTree = "<group>"; };
+		B541F2912092D98D0059B024 /* LOTGradientFillRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTGradientFillRender.m; sourceTree = "<group>"; };
+		B541F2922092D98D0059B024 /* LOTFillRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTFillRenderer.h; sourceTree = "<group>"; };
+		B541F2932092D98D0059B024 /* LOTStrokeRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTStrokeRenderer.h; sourceTree = "<group>"; };
+		B541F2942092D98D0059B024 /* LOTRepeaterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRepeaterRenderer.h; sourceTree = "<group>"; };
+		B541F2952092D98D0059B024 /* LOTRenderGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRenderGroup.h; sourceTree = "<group>"; };
+		B541F2962092D98D0059B024 /* LOTStrokeRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTStrokeRenderer.m; sourceTree = "<group>"; };
+		B541F2972092D98D0059B024 /* LOTFillRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTFillRenderer.m; sourceTree = "<group>"; };
+		B541F2982092D98D0059B024 /* LOTGradientFillRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTGradientFillRender.h; sourceTree = "<group>"; };
+		B541F2992092D98D0059B024 /* LOTRepeaterRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRepeaterRenderer.m; sourceTree = "<group>"; };
+		B541F29A2092D98D0059B024 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B541F29C2092D98D0059B024 /* LOTMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTMask.m; sourceTree = "<group>"; };
+		B541F29D2092D98D0059B024 /* LOTLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTLayer.m; sourceTree = "<group>"; };
+		B541F29E2092D98D0059B024 /* LOTAssetGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAssetGroup.m; sourceTree = "<group>"; };
+		B541F29F2092D98D0059B024 /* LOTShapeRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeRectangle.h; sourceTree = "<group>"; };
+		B541F2A02092D98D0059B024 /* LOTShapeRepeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeRepeater.h; sourceTree = "<group>"; };
+		B541F2A12092D98D0059B024 /* LOTAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAsset.h; sourceTree = "<group>"; };
+		B541F2A22092D98D0059B024 /* LOTShapeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeCircle.h; sourceTree = "<group>"; };
+		B541F2A32092D98D0059B024 /* LOTLayerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTLayerGroup.m; sourceTree = "<group>"; };
+		B541F2A42092D98D0059B024 /* LOTShapeStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeStar.m; sourceTree = "<group>"; };
+		B541F2A52092D98D0059B024 /* LOTShapeTrimPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeTrimPath.m; sourceTree = "<group>"; };
+		B541F2A62092D98D0059B024 /* LOTShapeGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeGroup.h; sourceTree = "<group>"; };
+		B541F2A72092D98D0059B024 /* LOTShapePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapePath.h; sourceTree = "<group>"; };
+		B541F2A82092D98D0059B024 /* LOTShapeStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeStroke.h; sourceTree = "<group>"; };
+		B541F2A92092D98D0059B024 /* LOTShapeGradientFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeGradientFill.m; sourceTree = "<group>"; };
+		B541F2AA2092D98D0059B024 /* LOTShapeFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeFill.h; sourceTree = "<group>"; };
+		B541F2AB2092D98D0059B024 /* LOTShapeTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeTransform.h; sourceTree = "<group>"; };
+		B541F2AC2092D98D0059B024 /* LOTAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAsset.m; sourceTree = "<group>"; };
+		B541F2AD2092D98D0059B024 /* LOTModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTModels.h; sourceTree = "<group>"; };
+		B541F2AE2092D98D0059B024 /* LOTShapeRepeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeRepeater.m; sourceTree = "<group>"; };
+		B541F2AF2092D98D0059B024 /* LOTAssetGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAssetGroup.h; sourceTree = "<group>"; };
+		B541F2B02092D98D0059B024 /* LOTShapeRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeRectangle.m; sourceTree = "<group>"; };
+		B541F2B12092D98D0059B024 /* LOTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTLayer.h; sourceTree = "<group>"; };
+		B541F2B22092D98D0059B024 /* LOTMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTMask.h; sourceTree = "<group>"; };
+		B541F2B32092D98D0059B024 /* LOTShapeStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeStar.h; sourceTree = "<group>"; };
+		B541F2B42092D98D0059B024 /* LOTLayerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTLayerGroup.h; sourceTree = "<group>"; };
+		B541F2B52092D98D0059B024 /* LOTShapeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeCircle.m; sourceTree = "<group>"; };
+		B541F2B62092D98D0059B024 /* LOTShapePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapePath.m; sourceTree = "<group>"; };
+		B541F2B72092D98D0059B024 /* LOTShapeGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeGroup.m; sourceTree = "<group>"; };
+		B541F2B82092D98D0059B024 /* LOTShapeTrimPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeTrimPath.h; sourceTree = "<group>"; };
+		B541F2B92092D98D0059B024 /* LOTShapeFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeFill.m; sourceTree = "<group>"; };
+		B541F2BA2092D98D0059B024 /* LOTShapeTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeTransform.m; sourceTree = "<group>"; };
+		B541F2BB2092D98D0059B024 /* LOTShapeGradientFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTShapeGradientFill.h; sourceTree = "<group>"; };
+		B541F2BC2092D98D0059B024 /* LOTShapeStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTShapeStroke.m; sourceTree = "<group>"; };
+		B541F2BE2092D98D0059B024 /* LOTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTHelpers.h; sourceTree = "<group>"; };
+		B541F2BF2092D98D0059B024 /* LOTRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRadialGradientLayer.h; sourceTree = "<group>"; };
+		B541F2C02092D98D0059B024 /* CGGeometry+LOTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+LOTAdditions.m"; sourceTree = "<group>"; };
+		B541F2C12092D98D0059B024 /* LOTBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTBezierPath.m; sourceTree = "<group>"; };
+		B541F2C22092D98D0059B024 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		B541F2C32092D98D0059B024 /* LOTRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRadialGradientLayer.m; sourceTree = "<group>"; };
+		B541F2C42092D98D0059B024 /* CGGeometry+LOTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+LOTAdditions.h"; sourceTree = "<group>"; };
+		B541F2C52092D98D0059B024 /* LOTBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTBezierPath.h; sourceTree = "<group>"; };
+		B541F2C62092D98D0059B024 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		B541F2C82092D98D0059B024 /* UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
+		B541F2C92092D98D0059B024 /* UIBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBezierPath.m; sourceTree = "<group>"; };
+		B541F2CA2092D98D0059B024 /* CALayer+Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Compat.h"; sourceTree = "<group>"; };
+		B541F2CB2092D98D0059B024 /* NSValue+Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+Compat.h"; sourceTree = "<group>"; };
+		B541F2CC2092D98D0059B024 /* UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor.m; sourceTree = "<group>"; };
+		B541F2CD2092D98D0059B024 /* LOTPlatformCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTPlatformCompat.h; sourceTree = "<group>"; };
+		B541F2CE2092D98D0059B024 /* UIBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBezierPath.h; sourceTree = "<group>"; };
+		B541F2CF2092D98D0059B024 /* NSValue+Compat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+Compat.m"; sourceTree = "<group>"; };
+		B541F2D02092D98D0059B024 /* CALayer+Compat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Compat.m"; sourceTree = "<group>"; };
+		B541F2D22092D98D0059B024 /* LOTAnimationCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationCache.m; sourceTree = "<group>"; };
+		B541F2D32092D98D0059B024 /* LOTComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTComposition.m; sourceTree = "<group>"; };
+		B541F2D42092D98D0059B024 /* LOTValueCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTValueCallback.m; sourceTree = "<group>"; };
+		B541F2D52092D98D0059B024 /* LOTBlockCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTBlockCallback.m; sourceTree = "<group>"; };
+		B541F2D62092D98D0059B024 /* LOTAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationView.m; sourceTree = "<group>"; };
+		B541F2D72092D98D0059B024 /* LOTAnimationTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimationTransitionController.m; sourceTree = "<group>"; };
+		B541F2D82092D98D0059B024 /* LOTAnimationView_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView_Internal.h; sourceTree = "<group>"; };
+		B541F2D92092D98D0059B024 /* LOTKeypath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTKeypath.m; sourceTree = "<group>"; };
+		B541F2DA2092D98D0059B024 /* LOTCacheProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTCacheProvider.m; sourceTree = "<group>"; };
+		B541F2DB2092D98D0059B024 /* LOTAnimatedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimatedControl.m; sourceTree = "<group>"; };
+		B541F2DC2092D98D0059B024 /* LOTInterpolatorCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTInterpolatorCallback.m; sourceTree = "<group>"; };
+		B541F2DD2092D98D0059B024 /* LOTAnimatedSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTAnimatedSwitch.m; sourceTree = "<group>"; };
+		B541F2DF2092D98D0059B024 /* LOTKeyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTKeyframe.m; sourceTree = "<group>"; };
+		B541F2E02092D98D0059B024 /* LOTBezierData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTBezierData.m; sourceTree = "<group>"; };
+		B541F2E12092D98D0059B024 /* LOTKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTKeyframe.h; sourceTree = "<group>"; };
+		B541F2E22092D98D0059B024 /* LOTBezierData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTBezierData.h; sourceTree = "<group>"; };
+		B541F2E42092D98D0059B024 /* LOTLayerContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTLayerContainer.m; sourceTree = "<group>"; };
+		B541F2E52092D98D0059B024 /* LOTCompositionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTCompositionContainer.h; sourceTree = "<group>"; };
+		B541F2E62092D98D0059B024 /* LOTMaskContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTMaskContainer.h; sourceTree = "<group>"; };
+		B541F2E72092D98D0059B024 /* LOTLayerContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTLayerContainer.h; sourceTree = "<group>"; };
+		B541F2E82092D98D0059B024 /* LOTCompositionContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTCompositionContainer.m; sourceTree = "<group>"; };
+		B541F2E92092D98D0059B024 /* LOTMaskContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTMaskContainer.m; sourceTree = "<group>"; };
+		B541F2EB2092D98D0059B024 /* LOTValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTValueDelegate.h; sourceTree = "<group>"; };
+		B541F2EC2092D98D0059B024 /* LOTAnimatedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimatedControl.h; sourceTree = "<group>"; };
+		B541F2ED2092D98D0059B024 /* LOTCacheProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTCacheProvider.h; sourceTree = "<group>"; };
+		B541F2EE2092D98D0059B024 /* LOTKeypath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTKeypath.h; sourceTree = "<group>"; };
+		B541F2EF2092D98D0059B024 /* LOTInterpolatorCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTInterpolatorCallback.h; sourceTree = "<group>"; };
+		B541F2F02092D98D0059B024 /* LOTAnimatedSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimatedSwitch.h; sourceTree = "<group>"; };
+		B541F2F12092D98D0059B024 /* LOTAnimationCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationCache.h; sourceTree = "<group>"; };
+		B541F2F22092D98D0059B024 /* Lottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lottie.h; sourceTree = "<group>"; };
+		B541F2F32092D98D0059B024 /* LOTComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTComposition.h; sourceTree = "<group>"; };
+		B541F2F42092D98D0059B024 /* LOTAnimationTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationTransitionController.h; sourceTree = "<group>"; };
+		B541F2F52092D98D0059B024 /* LOTAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView.h; sourceTree = "<group>"; };
+		B541F2F62092D98D0059B024 /* LOTAnimationView_Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView_Compat.h; sourceTree = "<group>"; };
+		B541F2F72092D98D0059B024 /* LOTValueCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTValueCallback.h; sourceTree = "<group>"; };
+		B541F2F82092D98D0059B024 /* LOTBlockCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTBlockCallback.h; sourceTree = "<group>"; };
+		B541F2FA2092D98D0059B024 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B541F22F2092D9360059B024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B541F2472092D9380059B024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B541F2522092D9380059B024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B541F2292092D9360059B024 = {
+			isa = PBXGroup;
+			children = (
+				B541F2342092D9360059B024 /* Lottie-Demo */,
+				B541F24D2092D9380059B024 /* Lottie-DemoTests */,
+				B541F2582092D9380059B024 /* Lottie-DemoUITests */,
+				B541F2332092D9360059B024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B541F2332092D9360059B024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2322092D9360059B024 /* Lottie-Demo.app */,
+				B541F24A2092D9380059B024 /* Lottie-DemoTests.xctest */,
+				B541F2552092D9380059B024 /* Lottie-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B541F2342092D9360059B024 /* Lottie-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2692092D98D0059B024 /* lottie-ios */,
+				B541F2672092D94F0059B024 /* LottieLogo1.json */,
+				B541F2352092D9360059B024 /* AppDelegate.h */,
+				B541F2362092D9370059B024 /* AppDelegate.m */,
+				B541F2382092D9370059B024 /* ViewController.h */,
+				B541F2392092D9370059B024 /* ViewController.m */,
+				B541F23B2092D9370059B024 /* Main.storyboard */,
+				B541F23E2092D9380059B024 /* Assets.xcassets */,
+				B541F2402092D9380059B024 /* LaunchScreen.storyboard */,
+				B541F2432092D9380059B024 /* Info.plist */,
+				B541F2442092D9380059B024 /* main.m */,
+			);
+			path = "Lottie-Demo";
+			sourceTree = "<group>";
+		};
+		B541F24D2092D9380059B024 /* Lottie-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B541F24E2092D9380059B024 /* Lottie_DemoTests.m */,
+				B541F2502092D9380059B024 /* Info.plist */,
+			);
+			path = "Lottie-DemoTests";
+			sourceTree = "<group>";
+		};
+		B541F2582092D9380059B024 /* Lottie-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2592092D9380059B024 /* Lottie_DemoUITests.m */,
+				B541F25B2092D9380059B024 /* Info.plist */,
+			);
+			path = "Lottie-DemoUITests";
+			sourceTree = "<group>";
+		};
+		B541F2692092D98D0059B024 /* lottie-ios */ = {
+			isa = PBXGroup;
+			children = (
+				B541F26A2092D98D0059B024 /* Classes */,
+				B541F2F92092D98D0059B024 /* Assets */,
+			);
+			path = "lottie-ios";
+			sourceTree = "<group>";
+		};
+		B541F26A2092D98D0059B024 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B541F26B2092D98D0059B024 /* RenderSystem */,
+				B541F29A2092D98D0059B024 /* .gitkeep */,
+				B541F29B2092D98D0059B024 /* Models */,
+				B541F2BD2092D98D0059B024 /* Extensions */,
+				B541F2C72092D98D0059B024 /* MacCompatability */,
+				B541F2D12092D98D0059B024 /* Private */,
+				B541F2DE2092D98D0059B024 /* AnimatableProperties */,
+				B541F2E32092D98D0059B024 /* AnimatableLayers */,
+				B541F2EA2092D98D0059B024 /* PublicHeaders */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B541F26B2092D98D0059B024 /* RenderSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B541F26C2092D98D0059B024 /* LOTRenderNode.m */,
+				B541F26D2092D98D0059B024 /* LOTAnimatorNode.h */,
+				B541F26E2092D98D0059B024 /* LOTRenderNode.h */,
+				B541F26F2092D98D0059B024 /* ManipulatorNodes */,
+				B541F2722092D98D0059B024 /* InterpolatorNodes */,
+				B541F2832092D98D0059B024 /* LOTAnimatorNode.m */,
+				B541F2842092D98D0059B024 /* AnimatorNodes */,
+				B541F28F2092D98D0059B024 /* RenderNodes */,
+			);
+			path = RenderSystem;
+			sourceTree = "<group>";
+		};
+		B541F26F2092D98D0059B024 /* ManipulatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2702092D98D0059B024 /* LOTTrimPathNode.h */,
+				B541F2712092D98D0059B024 /* LOTTrimPathNode.m */,
+			);
+			path = ManipulatorNodes;
+			sourceTree = "<group>";
+		};
+		B541F2722092D98D0059B024 /* InterpolatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2732092D98D0059B024 /* LOTColorInterpolator.m */,
+				B541F2742092D98D0059B024 /* LOTPathInterpolator.m */,
+				B541F2752092D98D0059B024 /* LOTSizeInterpolator.h */,
+				B541F2762092D98D0059B024 /* LOTValueInterpolator.h */,
+				B541F2772092D98D0059B024 /* LOTPointInterpolator.h */,
+				B541F2782092D98D0059B024 /* LOTNumberInterpolator.h */,
+				B541F2792092D98D0059B024 /* LOTTransformInterpolator.h */,
+				B541F27A2092D98D0059B024 /* LOTArrayInterpolator.h */,
+				B541F27B2092D98D0059B024 /* LOTColorInterpolator.h */,
+				B541F27C2092D98D0059B024 /* LOTSizeInterpolator.m */,
+				B541F27D2092D98D0059B024 /* LOTPathInterpolator.h */,
+				B541F27E2092D98D0059B024 /* LOTPointInterpolator.m */,
+				B541F27F2092D98D0059B024 /* LOTValueInterpolator.m */,
+				B541F2802092D98D0059B024 /* LOTTransformInterpolator.m */,
+				B541F2812092D98D0059B024 /* LOTArrayInterpolator.m */,
+				B541F2822092D98D0059B024 /* LOTNumberInterpolator.m */,
+			);
+			path = InterpolatorNodes;
+			sourceTree = "<group>";
+		};
+		B541F2842092D98D0059B024 /* AnimatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2852092D98D0059B024 /* LOTPathAnimator.m */,
+				B541F2862092D98D0059B024 /* LOTPolystarAnimator.m */,
+				B541F2872092D98D0059B024 /* LOTPolygonAnimator.m */,
+				B541F2882092D98D0059B024 /* LOTRoundedRectAnimator.h */,
+				B541F2892092D98D0059B024 /* LOTCircleAnimator.m */,
+				B541F28A2092D98D0059B024 /* LOTPolystarAnimator.h */,
+				B541F28B2092D98D0059B024 /* LOTPathAnimator.h */,
+				B541F28C2092D98D0059B024 /* LOTCircleAnimator.h */,
+				B541F28D2092D98D0059B024 /* LOTRoundedRectAnimator.m */,
+				B541F28E2092D98D0059B024 /* LOTPolygonAnimator.h */,
+			);
+			path = AnimatorNodes;
+			sourceTree = "<group>";
+		};
+		B541F28F2092D98D0059B024 /* RenderNodes */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2902092D98D0059B024 /* LOTRenderGroup.m */,
+				B541F2912092D98D0059B024 /* LOTGradientFillRender.m */,
+				B541F2922092D98D0059B024 /* LOTFillRenderer.h */,
+				B541F2932092D98D0059B024 /* LOTStrokeRenderer.h */,
+				B541F2942092D98D0059B024 /* LOTRepeaterRenderer.h */,
+				B541F2952092D98D0059B024 /* LOTRenderGroup.h */,
+				B541F2962092D98D0059B024 /* LOTStrokeRenderer.m */,
+				B541F2972092D98D0059B024 /* LOTFillRenderer.m */,
+				B541F2982092D98D0059B024 /* LOTGradientFillRender.h */,
+				B541F2992092D98D0059B024 /* LOTRepeaterRenderer.m */,
+			);
+			path = RenderNodes;
+			sourceTree = "<group>";
+		};
+		B541F29B2092D98D0059B024 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B541F29C2092D98D0059B024 /* LOTMask.m */,
+				B541F29D2092D98D0059B024 /* LOTLayer.m */,
+				B541F29E2092D98D0059B024 /* LOTAssetGroup.m */,
+				B541F29F2092D98D0059B024 /* LOTShapeRectangle.h */,
+				B541F2A02092D98D0059B024 /* LOTShapeRepeater.h */,
+				B541F2A12092D98D0059B024 /* LOTAsset.h */,
+				B541F2A22092D98D0059B024 /* LOTShapeCircle.h */,
+				B541F2A32092D98D0059B024 /* LOTLayerGroup.m */,
+				B541F2A42092D98D0059B024 /* LOTShapeStar.m */,
+				B541F2A52092D98D0059B024 /* LOTShapeTrimPath.m */,
+				B541F2A62092D98D0059B024 /* LOTShapeGroup.h */,
+				B541F2A72092D98D0059B024 /* LOTShapePath.h */,
+				B541F2A82092D98D0059B024 /* LOTShapeStroke.h */,
+				B541F2A92092D98D0059B024 /* LOTShapeGradientFill.m */,
+				B541F2AA2092D98D0059B024 /* LOTShapeFill.h */,
+				B541F2AB2092D98D0059B024 /* LOTShapeTransform.h */,
+				B541F2AC2092D98D0059B024 /* LOTAsset.m */,
+				B541F2AD2092D98D0059B024 /* LOTModels.h */,
+				B541F2AE2092D98D0059B024 /* LOTShapeRepeater.m */,
+				B541F2AF2092D98D0059B024 /* LOTAssetGroup.h */,
+				B541F2B02092D98D0059B024 /* LOTShapeRectangle.m */,
+				B541F2B12092D98D0059B024 /* LOTLayer.h */,
+				B541F2B22092D98D0059B024 /* LOTMask.h */,
+				B541F2B32092D98D0059B024 /* LOTShapeStar.h */,
+				B541F2B42092D98D0059B024 /* LOTLayerGroup.h */,
+				B541F2B52092D98D0059B024 /* LOTShapeCircle.m */,
+				B541F2B62092D98D0059B024 /* LOTShapePath.m */,
+				B541F2B72092D98D0059B024 /* LOTShapeGroup.m */,
+				B541F2B82092D98D0059B024 /* LOTShapeTrimPath.h */,
+				B541F2B92092D98D0059B024 /* LOTShapeFill.m */,
+				B541F2BA2092D98D0059B024 /* LOTShapeTransform.m */,
+				B541F2BB2092D98D0059B024 /* LOTShapeGradientFill.h */,
+				B541F2BC2092D98D0059B024 /* LOTShapeStroke.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B541F2BD2092D98D0059B024 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2BE2092D98D0059B024 /* LOTHelpers.h */,
+				B541F2BF2092D98D0059B024 /* LOTRadialGradientLayer.h */,
+				B541F2C02092D98D0059B024 /* CGGeometry+LOTAdditions.m */,
+				B541F2C12092D98D0059B024 /* LOTBezierPath.m */,
+				B541F2C22092D98D0059B024 /* UIColor+Expanded.h */,
+				B541F2C32092D98D0059B024 /* LOTRadialGradientLayer.m */,
+				B541F2C42092D98D0059B024 /* CGGeometry+LOTAdditions.h */,
+				B541F2C52092D98D0059B024 /* LOTBezierPath.h */,
+				B541F2C62092D98D0059B024 /* UIColor+Expanded.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B541F2C72092D98D0059B024 /* MacCompatability */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2C82092D98D0059B024 /* UIColor.h */,
+				B541F2C92092D98D0059B024 /* UIBezierPath.m */,
+				B541F2CA2092D98D0059B024 /* CALayer+Compat.h */,
+				B541F2CB2092D98D0059B024 /* NSValue+Compat.h */,
+				B541F2CC2092D98D0059B024 /* UIColor.m */,
+				B541F2CD2092D98D0059B024 /* LOTPlatformCompat.h */,
+				B541F2CE2092D98D0059B024 /* UIBezierPath.h */,
+				B541F2CF2092D98D0059B024 /* NSValue+Compat.m */,
+				B541F2D02092D98D0059B024 /* CALayer+Compat.m */,
+			);
+			path = MacCompatability;
+			sourceTree = "<group>";
+		};
+		B541F2D12092D98D0059B024 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2D22092D98D0059B024 /* LOTAnimationCache.m */,
+				B541F2D32092D98D0059B024 /* LOTComposition.m */,
+				B541F2D42092D98D0059B024 /* LOTValueCallback.m */,
+				B541F2D52092D98D0059B024 /* LOTBlockCallback.m */,
+				B541F2D62092D98D0059B024 /* LOTAnimationView.m */,
+				B541F2D72092D98D0059B024 /* LOTAnimationTransitionController.m */,
+				B541F2D82092D98D0059B024 /* LOTAnimationView_Internal.h */,
+				B541F2D92092D98D0059B024 /* LOTKeypath.m */,
+				B541F2DA2092D98D0059B024 /* LOTCacheProvider.m */,
+				B541F2DB2092D98D0059B024 /* LOTAnimatedControl.m */,
+				B541F2DC2092D98D0059B024 /* LOTInterpolatorCallback.m */,
+				B541F2DD2092D98D0059B024 /* LOTAnimatedSwitch.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		B541F2DE2092D98D0059B024 /* AnimatableProperties */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2DF2092D98D0059B024 /* LOTKeyframe.m */,
+				B541F2E02092D98D0059B024 /* LOTBezierData.m */,
+				B541F2E12092D98D0059B024 /* LOTKeyframe.h */,
+				B541F2E22092D98D0059B024 /* LOTBezierData.h */,
+			);
+			path = AnimatableProperties;
+			sourceTree = "<group>";
+		};
+		B541F2E32092D98D0059B024 /* AnimatableLayers */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2E42092D98D0059B024 /* LOTLayerContainer.m */,
+				B541F2E52092D98D0059B024 /* LOTCompositionContainer.h */,
+				B541F2E62092D98D0059B024 /* LOTMaskContainer.h */,
+				B541F2E72092D98D0059B024 /* LOTLayerContainer.h */,
+				B541F2E82092D98D0059B024 /* LOTCompositionContainer.m */,
+				B541F2E92092D98D0059B024 /* LOTMaskContainer.m */,
+			);
+			path = AnimatableLayers;
+			sourceTree = "<group>";
+		};
+		B541F2EA2092D98D0059B024 /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2EB2092D98D0059B024 /* LOTValueDelegate.h */,
+				B541F2EC2092D98D0059B024 /* LOTAnimatedControl.h */,
+				B541F2ED2092D98D0059B024 /* LOTCacheProvider.h */,
+				B541F2EE2092D98D0059B024 /* LOTKeypath.h */,
+				B541F2EF2092D98D0059B024 /* LOTInterpolatorCallback.h */,
+				B541F2F02092D98D0059B024 /* LOTAnimatedSwitch.h */,
+				B541F2F12092D98D0059B024 /* LOTAnimationCache.h */,
+				B541F2F22092D98D0059B024 /* Lottie.h */,
+				B541F2F32092D98D0059B024 /* LOTComposition.h */,
+				B541F2F42092D98D0059B024 /* LOTAnimationTransitionController.h */,
+				B541F2F52092D98D0059B024 /* LOTAnimationView.h */,
+				B541F2F62092D98D0059B024 /* LOTAnimationView_Compat.h */,
+				B541F2F72092D98D0059B024 /* LOTValueCallback.h */,
+				B541F2F82092D98D0059B024 /* LOTBlockCallback.h */,
+			);
+			path = PublicHeaders;
+			sourceTree = "<group>";
+		};
+		B541F2F92092D98D0059B024 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B541F2FA2092D98D0059B024 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B541F2312092D9360059B024 /* Lottie-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B541F25E2092D9380059B024 /* Build configuration list for PBXNativeTarget "Lottie-Demo" */;
+			buildPhases = (
+				B541F22E2092D9360059B024 /* Sources */,
+				B541F22F2092D9360059B024 /* Frameworks */,
+				B541F2302092D9360059B024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lottie-Demo";
+			productName = "Lottie-Demo";
+			productReference = B541F2322092D9360059B024 /* Lottie-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B541F2492092D9380059B024 /* Lottie-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B541F2612092D9380059B024 /* Build configuration list for PBXNativeTarget "Lottie-DemoTests" */;
+			buildPhases = (
+				B541F2462092D9380059B024 /* Sources */,
+				B541F2472092D9380059B024 /* Frameworks */,
+				B541F2482092D9380059B024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B541F24C2092D9380059B024 /* PBXTargetDependency */,
+			);
+			name = "Lottie-DemoTests";
+			productName = "Lottie-DemoTests";
+			productReference = B541F24A2092D9380059B024 /* Lottie-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B541F2542092D9380059B024 /* Lottie-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B541F2642092D9380059B024 /* Build configuration list for PBXNativeTarget "Lottie-DemoUITests" */;
+			buildPhases = (
+				B541F2512092D9380059B024 /* Sources */,
+				B541F2522092D9380059B024 /* Frameworks */,
+				B541F2532092D9380059B024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B541F2572092D9380059B024 /* PBXTargetDependency */,
+			);
+			name = "Lottie-DemoUITests";
+			productName = "Lottie-DemoUITests";
+			productReference = B541F2552092D9380059B024 /* Lottie-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B541F22A2092D9360059B024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = cen;
+				TargetAttributes = {
+					B541F2312092D9360059B024 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B541F2492092D9380059B024 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B541F2312092D9360059B024;
+					};
+					B541F2542092D9380059B024 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B541F2312092D9360059B024;
+					};
+				};
+			};
+			buildConfigurationList = B541F22D2092D9360059B024 /* Build configuration list for PBXProject "Lottie-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B541F2292092D9360059B024;
+			productRefGroup = B541F2332092D9360059B024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B541F2312092D9360059B024 /* Lottie-Demo */,
+				B541F2492092D9380059B024 /* Lottie-DemoTests */,
+				B541F2542092D9380059B024 /* Lottie-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B541F2302092D9360059B024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B541F2422092D9380059B024 /* LaunchScreen.storyboard in Resources */,
+				B541F23F2092D9380059B024 /* Assets.xcassets in Resources */,
+				B541F3102092D98D0059B024 /* .gitkeep in Resources */,
+				B541F3392092D98D0059B024 /* .gitkeep in Resources */,
+				B541F23D2092D9370059B024 /* Main.storyboard in Resources */,
+				B541F2682092D94F0059B024 /* LottieLogo1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B541F2482092D9380059B024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B541F2532092D9380059B024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B541F22E2092D9360059B024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B541F3292092D98D0059B024 /* LOTAnimationCache.m in Sources */,
+				B541F3092092D98D0059B024 /* LOTCircleAnimator.m in Sources */,
+				B541F2FC2092D98D0059B024 /* LOTTrimPathNode.m in Sources */,
+				B541F3302092D98D0059B024 /* LOTCacheProvider.m in Sources */,
+				B541F31E2092D98D0059B024 /* LOTShapeFill.m in Sources */,
+				B541F3202092D98D0059B024 /* LOTShapeStroke.m in Sources */,
+				B541F3162092D98D0059B024 /* LOTShapeTrimPath.m in Sources */,
+				B541F3002092D98D0059B024 /* LOTPointInterpolator.m in Sources */,
+				B541F3352092D98D0059B024 /* LOTBezierData.m in Sources */,
+				B541F3122092D98D0059B024 /* LOTLayer.m in Sources */,
+				B541F31A2092D98D0059B024 /* LOTShapeRectangle.m in Sources */,
+				B541F3382092D98D0059B024 /* LOTMaskContainer.m in Sources */,
+				B541F3272092D98D0059B024 /* NSValue+Compat.m in Sources */,
+				B541F3322092D98D0059B024 /* LOTInterpolatorCallback.m in Sources */,
+				B541F31C2092D98D0059B024 /* LOTShapePath.m in Sources */,
+				B541F30E2092D98D0059B024 /* LOTFillRenderer.m in Sources */,
+				B541F3362092D98D0059B024 /* LOTLayerContainer.m in Sources */,
+				B541F3332092D98D0059B024 /* LOTAnimatedSwitch.m in Sources */,
+				B541F3282092D98D0059B024 /* CALayer+Compat.m in Sources */,
+				B541F30B2092D98D0059B024 /* LOTRenderGroup.m in Sources */,
+				B541F3132092D98D0059B024 /* LOTAssetGroup.m in Sources */,
+				B541F32E2092D98D0059B024 /* LOTAnimationTransitionController.m in Sources */,
+				B541F3052092D98D0059B024 /* LOTAnimatorNode.m in Sources */,
+				B541F32A2092D98D0059B024 /* LOTComposition.m in Sources */,
+				B541F30C2092D98D0059B024 /* LOTGradientFillRender.m in Sources */,
+				B541F3242092D98D0059B024 /* UIColor+Expanded.m in Sources */,
+				B541F3192092D98D0059B024 /* LOTShapeRepeater.m in Sources */,
+				B541F3152092D98D0059B024 /* LOTShapeStar.m in Sources */,
+				B541F3262092D98D0059B024 /* UIColor.m in Sources */,
+				B541F3032092D98D0059B024 /* LOTArrayInterpolator.m in Sources */,
+				B541F23A2092D9370059B024 /* ViewController.m in Sources */,
+				B541F3082092D98D0059B024 /* LOTPolygonAnimator.m in Sources */,
+				B541F32B2092D98D0059B024 /* LOTValueCallback.m in Sources */,
+				B541F31D2092D98D0059B024 /* LOTShapeGroup.m in Sources */,
+				B541F3232092D98D0059B024 /* LOTRadialGradientLayer.m in Sources */,
+				B541F2452092D9380059B024 /* main.m in Sources */,
+				B541F30D2092D98D0059B024 /* LOTStrokeRenderer.m in Sources */,
+				B541F3022092D98D0059B024 /* LOTTransformInterpolator.m in Sources */,
+				B541F3252092D98D0059B024 /* UIBezierPath.m in Sources */,
+				B541F3372092D98D0059B024 /* LOTCompositionContainer.m in Sources */,
+				B541F3212092D98D0059B024 /* CGGeometry+LOTAdditions.m in Sources */,
+				B541F3062092D98D0059B024 /* LOTPathAnimator.m in Sources */,
+				B541F30F2092D98D0059B024 /* LOTRepeaterRenderer.m in Sources */,
+				B541F3112092D98D0059B024 /* LOTMask.m in Sources */,
+				B541F3182092D98D0059B024 /* LOTAsset.m in Sources */,
+				B541F3072092D98D0059B024 /* LOTPolystarAnimator.m in Sources */,
+				B541F3142092D98D0059B024 /* LOTLayerGroup.m in Sources */,
+				B541F2372092D9370059B024 /* AppDelegate.m in Sources */,
+				B541F32C2092D98D0059B024 /* LOTBlockCallback.m in Sources */,
+				B541F32F2092D98D0059B024 /* LOTKeypath.m in Sources */,
+				B541F2FE2092D98D0059B024 /* LOTPathInterpolator.m in Sources */,
+				B541F3342092D98D0059B024 /* LOTKeyframe.m in Sources */,
+				B541F3042092D98D0059B024 /* LOTNumberInterpolator.m in Sources */,
+				B541F3172092D98D0059B024 /* LOTShapeGradientFill.m in Sources */,
+				B541F32D2092D98D0059B024 /* LOTAnimationView.m in Sources */,
+				B541F2FF2092D98D0059B024 /* LOTSizeInterpolator.m in Sources */,
+				B541F31F2092D98D0059B024 /* LOTShapeTransform.m in Sources */,
+				B541F31B2092D98D0059B024 /* LOTShapeCircle.m in Sources */,
+				B541F3222092D98D0059B024 /* LOTBezierPath.m in Sources */,
+				B541F30A2092D98D0059B024 /* LOTRoundedRectAnimator.m in Sources */,
+				B541F3312092D98D0059B024 /* LOTAnimatedControl.m in Sources */,
+				B541F2FD2092D98D0059B024 /* LOTColorInterpolator.m in Sources */,
+				B541F3012092D98D0059B024 /* LOTValueInterpolator.m in Sources */,
+				B541F2FB2092D98D0059B024 /* LOTRenderNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B541F2462092D9380059B024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B541F24F2092D9380059B024 /* Lottie_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B541F2512092D9380059B024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B541F25A2092D9380059B024 /* Lottie_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B541F24C2092D9380059B024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B541F2312092D9360059B024 /* Lottie-Demo */;
+			targetProxy = B541F24B2092D9380059B024 /* PBXContainerItemProxy */;
+		};
+		B541F2572092D9380059B024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B541F2312092D9360059B024 /* Lottie-Demo */;
+			targetProxy = B541F2562092D9380059B024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B541F23B2092D9370059B024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B541F23C2092D9370059B024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B541F2402092D9380059B024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B541F2412092D9380059B024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B541F25C2092D9380059B024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B541F25D2092D9380059B024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B541F25F2092D9380059B024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G79CMG3KRG;
+				INFOPLIST_FILE = "Lottie-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v.tech.Lottie-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B541F2602092D9380059B024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G79CMG3KRG;
+				INFOPLIST_FILE = "Lottie-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v.tech.Lottie-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B541F2622092D9380059B024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lottie-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v.tech.Lottie-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lottie-Demo.app/Lottie-Demo";
+			};
+			name = Debug;
+		};
+		B541F2632092D9380059B024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lottie-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v.tech.Lottie-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lottie-Demo.app/Lottie-Demo";
+			};
+			name = Release;
+		};
+		B541F2652092D9380059B024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lottie-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v.tech.Lottie-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lottie-Demo";
+			};
+			name = Debug;
+		};
+		B541F2662092D9380059B024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lottie-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.v.tech.Lottie-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lottie-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B541F22D2092D9360059B024 /* Build configuration list for PBXProject "Lottie-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B541F25C2092D9380059B024 /* Debug */,
+				B541F25D2092D9380059B024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B541F25E2092D9380059B024 /* Build configuration list for PBXNativeTarget "Lottie-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B541F25F2092D9380059B024 /* Debug */,
+				B541F2602092D9380059B024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B541F2612092D9380059B024 /* Build configuration list for PBXNativeTarget "Lottie-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B541F2622092D9380059B024 /* Debug */,
+				B541F2632092D9380059B024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B541F2642092D9380059B024 /* Build configuration list for PBXNativeTarget "Lottie-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B541F2652092D9380059B024 /* Debug */,
+				B541F2662092D9380059B024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B541F22A2092D9360059B024 /* Project object */;
+}
