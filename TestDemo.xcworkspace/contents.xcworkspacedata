@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Label&#x659c;&#x4f53;/Label&#x659c;&#x4f53;.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Lottie-Demo/Lottie-Demo.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,7 +15,6 @@
    </FileRef>
    <FileRef
       location = "group:NSInvocation/NSInvocation.xcodeproj">
-      location = "group:&#x52a0;&#x89e3;&#x5bc6;/&#x52a0;&#x89e3;&#x5bc6;.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:RunLoop-05-Observer/RunLoop-05-Observer.xcodeproj">
