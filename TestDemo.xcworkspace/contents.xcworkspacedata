@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:KVO/KVO.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x5404;&#x79cd;&#x6392;&#x5e8f;&#x7b97;&#x6cd5;/&#x5404;&#x79cd;&#x6392;&#x5e8f;&#x7b97;&#x6cd5;.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:&#x52a0;&#x89e3;&#x5bc6;/&#x52a0;&#x89e3;&#x5bc6;.xcodeproj">
    </FileRef>
    <FileRef
